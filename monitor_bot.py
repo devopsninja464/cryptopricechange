@@ -60,7 +60,7 @@ for chain_data in crypto_data:
                 last_prices[symbol] = current_price
                 updated = True
             else:
-                print(f"No significant change for {symbol} | {change_pct:.2f}%")
+                print(f"No significant change for {symbol} | Change: {change_pct:.2f}% | Old: {old_price:.6f} | New: {current_price:.6f}")
 
 # Write updated prices back to JSON if needed
 if updated:
