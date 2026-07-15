@@ -5,7 +5,7 @@ import json
 def get_prices():
     try:
         urls = [
-           "https://api.dexscreener.com/latest/dex/pairs/ethereum/0xe472a9450974d9bae8be0eaebe556dfc892297cd"
+           "https://api.dexscreener.com/latest/dex/pairs/ethereum/0xa268d2b994423c4ef1fef817098a8c26318e61f8"
         ]
 
         all_data = []
